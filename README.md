@@ -26,11 +26,13 @@ const String apiKey = "API ключ";
 const String cityID = "480060";  
   
 ChistiyOpenWM weather(apiKey, cityID);  
+```
 
-
-Запрос погоды происходит так:  
+Запрос погоды происходит так: 
+```cpp
 if (weather.updateData()) {  
     Serial.println(weather.getTemperature());  
-}  
+}
+```
 
 Подробнее в примере библиотеки
