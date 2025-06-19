@@ -9,7 +9,7 @@ API ключ берётся с сайта openweathermap. Можно самом�
 
 
 Инициализация библиотеки:  
-const String apiKey = "5a63b64e609d473f1d37627e106f6c18";  
+const String apiKey = "API ключ";  
 const String cityID = "480060";  
   
 ChistiyOpenWM weather(apiKey, cityID);  
@@ -18,3 +18,5 @@ ChistiyOpenWM weather(apiKey, cityID);
 if (weather.updateData()) {  
     Serial.println(weather.getTemperature());  
 }  
+
+Подробнее в примере библиотеки
