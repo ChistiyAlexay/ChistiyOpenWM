@@ -1,9 +1,11 @@
 # ChistiyOpenWM
 Библиотека для получения текущих погодных данных с сервиса OpenWeatherMap по ID города и парсить JSON ответ.  
-
-
+<br>
+<br>
+<br>
 ![Пример вывода](https://github.com/ChistiyAlexay/ChistiyOpenWM/blob/main/ChistiyOpenWM/Images/Img.jpg?raw=true)  
 Вывод в консоль из примера  
+<br>
 <br>
 <br>
 API ключ берётся с сайта openweathermap. Можно самому, можно по видео с интернета. ID города так-же берётся с openweather map.  
