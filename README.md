@@ -3,7 +3,7 @@
 
 
 ![Пример вывода](https://github.com/ChistiyAlexay/ChistiyOpenWM/blob/main/ChistiyOpenWM/Images/Img.jpg?raw=true)  
-Вывод в консоль из примера
+Вывод в консоль из примера  
 
 
 API ключ берётся с сайта openweathermap. Можно самому, можно по видео с интернета. ID города так-же берётся с openweather map.  
