@@ -1,5 +1,5 @@
-# ChistiyOpenWM - библиотека для быстрой работы с openweathermap
-Библиотека для получения текущих погодных данных с сервиса OpenWeatherMap по ID города и парсить JSON ответ.  
+# ChistiyOpenWM - библиотека для быстрой работы с OpenWeatherMap
+Используется для быстрого получения текущих погодных данных с сервиса OpenWeatherMap по ID города.  
 <br>
 
 <div style="border: 2px solid #333; padding: 10px; display: inline-block;">
