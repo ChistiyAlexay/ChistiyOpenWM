@@ -8,8 +8,8 @@
 
 API ключ берётся с сайта openweathermap. Можно самому, можно по видео с интернета. ID города так-же берётся с openweather map.  
 
-
-
+  
+  
 Инициализация библиотеки:  
 const String apiKey = "API ключ";  
 const String cityID = "480060";  
