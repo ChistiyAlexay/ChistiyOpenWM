@@ -31,7 +31,7 @@ bool ChistiyOpenWM::updateData() {
     }
 
     HTTPClient http;
-    String url = "http://api.openweathermap.org/data/2.5/weather?id=" + _cityID + "&appid=" + _apiKey + "&units=metric&lang=ru";
+    String url = "http://api.openweathermap.org/data/2.5/weather?id=" + _cityID + "&appid=" + _apiKey + "&units=metric&lang=en";
 
     http.begin(url);
     int httpCode = http.GET();
