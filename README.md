@@ -16,5 +16,5 @@ ChistiyOpenWM weather(apiKey, cityID);
 
 Запрос погоды происходит так:  
 if (weather.updateData()) {  
-  Serial.println(weather.getTemperature());  
+    Serial.println(weather.getTemperature());  
 }  
