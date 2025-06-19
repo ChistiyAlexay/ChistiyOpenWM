@@ -14,7 +14,7 @@
 
 API ключ берётся с сайта openweathermap. Можно самому, можно по видео с интернета. ID города так-же берётся с openweather map.
 <br>
-Так-же предварительно следует установить ArduinoJson 7.4.1, ESP8266WiFi и ESP8266HTTPClient
+Так-же предварительно следует установить библиотеки ArduinoJson 7.4.1, ESP8266WiFi и ESP8266HTTPClient
 
   
   
