@@ -21,10 +21,12 @@ API ключ берётся с сайта openweathermap. Можно самом�
   
   
 Инициализация библиотеки:  
+```cpp
 const String apiKey = "API ключ";  
 const String cityID = "480060";  
   
 ChistiyOpenWM weather(apiKey, cityID);  
+
 
 Запрос погоды происходит так:  
 if (weather.updateData()) {  
