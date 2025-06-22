@@ -32,8 +32,9 @@ bool ChistiyOpenWM::updateData() {
 
     HTTPClient http;
     String url = "http://api.openweathermap.org/data/2.5/weather?id=" + _cityID + "&appid=" + _apiKey + "&units=metric&lang=en";
+    WiFiClient client;
+    http.begin(client, url);
 
-    http.begin(url);
     int httpCode = http.GET();
 
     if (httpCode != HTTP_CODE_OK) {
